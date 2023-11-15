@@ -29,7 +29,12 @@
 }
 .navbar ul
 {
- display: flex;
+  display: flex;
+  @media (max-width:480px) {
+   display: inline-block;
+    font-size: 20px;
+    
+  }
 }
 .navbar a{
   color: inherit;
@@ -75,6 +80,11 @@
 .leftcontainer
 {
   display: flex;
+  @media (max-width:480px) {
+    display: inline-block;
+     font-size: 20px;
+     
+   }
  
  
 }
