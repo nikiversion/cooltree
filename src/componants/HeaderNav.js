@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from'react-router-dom';
+import DownloadButton from './DownloadButton';
 
 
 const HeaderNav = () => {
@@ -28,10 +29,8 @@ const HeaderNav = () => {
         
         </ul>
         </div>
-  
-    <div className='photo'>
-      
-        <img src='/images/new year.jpg'></img>
+        <div className='calendar'>
+        <DownloadButton/>
     </div>
   </div>
     </div>

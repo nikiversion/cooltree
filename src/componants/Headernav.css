@@ -10,6 +10,7 @@
  gap: 2rem;
  font-size: 1.5rem;
   padding: 0 4rem;
+ 
 }
 .main-title
 {
@@ -23,6 +24,15 @@
   list-style: none;
   display: flex;
   gap: 4rem;
+
+}
+.navbar ul
+{
+  @media (max-width:480px) {
+    display: block;
+    font-size: 20px;
+    
+  }
 }
 .navbar a{
   color: inherit;
@@ -44,7 +54,7 @@
  display: inline-block;
  gap: 2rem;
  font-size: 2rem;
-
+ flex-direction: column;
   padding: 1rem;
   margin: 1rem;
 }
@@ -68,9 +78,26 @@
 .leftcontainer
 {
   display: flex;
+  @media (max-width:480px) {
+
+flex-wrap: wrap;
+  }
+ 
 }
 .photo
 {
   padding: 1rem;
   margin: 1rem;
+}
+.calendar
+{
+
+ padding: 1rem;
+ margin: 1rem;
+
+
+}
+.leftcontainer
+{
+flex-wrap: wrap;
 }
