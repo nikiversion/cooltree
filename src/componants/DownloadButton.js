@@ -7,9 +7,9 @@ const DownloadButton = () => {
     }
   return (
     <div className='calendarmain'>
-        <img src='/images/calendar.jpg' style={{ width:'400px', height:'600px'}}></img>
+        <img src='/images/calendar.jpg' ></img><br></br>
         <a href='/images/2024calendar.pdf' download>
-            <button style={{color:'red'}} onClick={downloaded} >Download</button>
+            <button style={{color:'black'}} onClick={downloaded} >Download</button>
         </a>
     </div>
   )

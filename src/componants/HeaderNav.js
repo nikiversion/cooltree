@@ -4,10 +4,20 @@ import DownloadButton from './DownloadButton';
 
 
 const HeaderNav = () => {
+// let toggle=document.querySelector(".toggle")
+// let menu = document.querySelector(".menu")
+
+// toggle.onclick=function()
+// {
+//   menu.classList.toggle("active")
+// }
+
   return (
     <div>
     <div className='navbar'>
-        <Link to='/b' className='main-title'>Cooltree</Link>
+        <Link to='/b' className='logo'>Cooltree</Link>
+        <i className='fas fa-bars toggle'></i>
+        <div className='menu'>
    <ul >
         <Link to='/'><li>Home</li></Link>
         <Link to='/Home'><li>Profile</li></Link>
@@ -16,8 +26,10 @@ const HeaderNav = () => {
         <Link to='/signin'><li>SignIn</li></Link>
         </ul>
     </div>
+    </div>
+
     <div className='leftcontainer'>
-      <div className='leftbar'>
+      {/* <div className='leftbar'>
     <ul >
         <Link to='/'><li>International</li></Link>
         <Link to='/Home'><li>National</li></Link>
@@ -28,12 +40,14 @@ const HeaderNav = () => {
         
         
         </ul>
-        </div>
+        </div> */}
         <div className='calendar'>
         <DownloadButton/>
     </div>
-  </div>
     </div>
+    </div>
+  
+   
   )
 }
 
