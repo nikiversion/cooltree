@@ -29,18 +29,15 @@ const HeaderNav = () => {
     </div>
 
     <div className='leftcontainer'>
-      {/* <div className='leftbar'>
+      <div className='leftbar'>
     <ul >
         <Link to='/'><li>International</li></Link>
         <Link to='/Home'><li>National</li></Link>
         <Link to='/signup'><li>State</li></Link>
         <Link to='/about'><li>Hyderabad</li></Link>
         <Link to='/signin'><li>Politics</li></Link>
-     
-        
-        
         </ul>
-        </div> */}
+        </div>
         <div className='calendar'>
         <DownloadButton/>
     </div>

@@ -65,7 +65,7 @@ a{
   .menu ul {
     flex-direction: column;
     width: 100%;
-    background-color: blueviolet;
+    background-color: rgb(47, 46, 48);
   }
   .menu ul li
   {
@@ -78,6 +78,34 @@ a{
   .menu.active
   {
     display: flex;
+  }
+}
+/* Leftbar */
+.leftbar
+{
+  background-color: purple;
+  display:inline-block;
+  font-size: 25px;
+  padding: 16px;
+  margin-top: 10px;
+  
+  width: 20%;
+  @media (max-width:480px)
+  {
+    width: 100%;
+    text-align: center;
+  }
+}
+.leftbar ul{
+  list-style: none;
+}
+.leftcontainer
+{
+  display: flex;
+  @media (max-width:480px)
+  {
+    display:block;
+    width: 100%;
   }
 }
 /* calendar code*/
@@ -94,6 +122,6 @@ a{
 }
 .calendarmain button
 {
-  background-color:orangered;
+  background-color:rgb(4, 73, 13);
   
 }
