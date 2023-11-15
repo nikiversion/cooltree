@@ -29,11 +29,7 @@
 }
 .navbar ul
 {
-  @media (max-width:480px) {
-    display: block;
-    font-size: 20px;
-    
-  }
+ display: flex;
 }
 .navbar a{
   color: inherit;
