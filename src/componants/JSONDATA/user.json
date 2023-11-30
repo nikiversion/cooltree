@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "name":"Dakshina Badrinath",
+        "city":"Hyderabad",
+        "image":"/images/badrinath.jpeg"
+    },
+    {
+        "id":2,
+        "name":"Jagannath",
+        "city":"Hyderabad",
+        "image":"/images/jagannath.jpg"
+    },
+    {
+        "id":1,
+        "name":"suman",
+        "city":"Hyderabad",
+        "image":"/images/thrillcity.jpeg"
+    },
+    {
+        "id":2,
+        "name":"Jagannath",
+        "city":"Hyderabad",
+        "image":"/images/jagannath.jpg"
+    },
+    {
+        "id":2,
+        "name":"Jagannath",
+        "city":"Hyderabad",
+        "image":"/images/jagannath.jpg"
+    },
+    {
+        "id":2,
+        "name":"Jagannath",
+        "city":"Hyderabad",
+        "image":"/images/jagannath.jpg"
+    },
+    {
+        "id":2,
+        "name":"Jagannath",
+        "city":"Hyderabad",
+        "image":"/images/jagannath.jpg"
+    },
+    {
+        "id":2,
+        "name":"Jagannath",
+        "city":"Hyderabad",
+        "image":"/images/jagannath.jpg"
+    },
+    {
+        "id":2,
+        "name":"Jagannath",
+        "city":"Hyderabad",
+        "image":"/images/jagannath.jpg"
+    }
+
+]

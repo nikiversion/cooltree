@@ -1,0 +1,19 @@
+.moralcontainer
+{
+    padding: 10px;
+
+}
+.moral
+{
+    background-color: yellow;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+    font-size: 22px;
+
+}
+.moralsection
+{
+    padding: 5px;
+    background-color: rgb(159, 188, 214);
+    margin: 4px;
+}

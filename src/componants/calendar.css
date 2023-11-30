@@ -1,0 +1,26 @@
+
+
+.calendarimage img
+{
+width: 300px;
+height: 400px;
+padding: 12px;
+
+}
+.calendarimage
+{
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   background-color: rgb(166, 231, 175);
+   
+}
+.calendarimage button
+{
+   background-color: blueviolet;
+   color: aqua;
+}
+.calendarimagecon
+{
+   padding: 10px;
+}

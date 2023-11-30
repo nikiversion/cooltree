@@ -1,3 +1,4 @@
+
 *
 {
   margin: 0;
@@ -10,26 +11,38 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(11, 11, 14);
-  color: white;
+  height: 50px;
+
 }
+
 .logo
 {
-  font-size: 35px;
-  margin: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 25px;
+  color: white;
+
 }
+
 .menu ul
 {
   display: flex;
 }
 .menu li{
   list-style: none;
+  
 }
-a{
+.under
+{
   text-decoration: none;
-  color: #ffffff;
-  padding: 10px;
-  display: block;
+  padding-left: 20px;
+ 
+  color: #EFE2BA;
+ 
 }
+
+
 .menu li:hover
 {
   background-color: aqua;
@@ -81,33 +94,9 @@ a{
   }
 }
 /* Leftbar */
-.leftbar
-{
-  background-color: purple;
-  display:inline-block;
-  font-size: 25px;
-  padding: 16px;
-  margin-top: 10px;
-  
-  width: 20%;
-  @media (max-width:480px)
-  {
-    width: 100%;
-    text-align: center;
-  }
-}
-.leftbar ul{
-  list-style: none;
-}
-.leftcontainer
-{
-  display: flex;
-  @media (max-width:480px)
-  {
-    display:block;
-    width: 100%;
-  }
-}
+
+
+
 /* calendar code*/
 .calendarmain img
 {
@@ -125,3 +114,4 @@ a{
   background-color:rgb(4, 73, 13);
   
 }
+/* .....................................leftbarbutton */
