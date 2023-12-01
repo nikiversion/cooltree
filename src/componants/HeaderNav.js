@@ -12,7 +12,7 @@ const [menuOpen ,setMenuOpen]=useState(false)
   return (
     
     <div className='navbar'>
-      <Link ><li>CoolTree</li></Link>
+      <Link to='/' ><li>CoolTree</li></Link>
         <div className='navmenu' onClick={()=>
         setMenuOpen(!menuOpen)
         }>
