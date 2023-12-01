@@ -1,6 +1,11 @@
+body{
+    overflow-x: hidden;
+}
+
+
 .homebox img
 {
-    width: 200px;
+    width: 190px;
     height: 250px;
     padding: 10px;
     @media (max-width:480px)
@@ -15,40 +20,43 @@
 }
 .homebox
 {
-   background-color: yellow;
+   background-color: rgb(62, 34, 107);
     font-family: 'Mandali', sans-serif;
     text-align: center;
     color: rgb(14, 13, 13);
     padding: 10px;
-    
+    gap: 40px;
     display: flex;
-  gap: 100px;
+
   @media (max-width:480px)
   {
    display: block;
-    
+
    
   }
     
    
 }
-.homebox h3{
-    background-color: rgb(126, 117, 204);
-}
+
 .homecontainer
 {
     padding: 10px;
-    padding-left: 40px;
+    
+    
 }
 .first
 {
-    background-color: rgb(70, 216, 89);
+    background-color: rgb(182, 221, 182);
 }
 .second
 {
-    background-color: rgb(165, 42, 159);
+    background-color: rgb(223, 204, 223);
 }
 .third
 {
-    background-color: rgb(226, 43, 43);
+    background-color: rgb(221, 188, 188);
 }
+.leftcontainer
+    {
+        display: none;
+    }
