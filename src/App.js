@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import HeaderNav from './componants/HeaderNav';
 import Home from './componants/Home';
-import './componants/Headernav.css';
+
 import DownloadButton from './componants/DownloadButton';
 import Calendar from './componants/Calendar';
 import Sidebar from './componants/Sidebar';
@@ -27,7 +27,8 @@ function App() {
       
       <HeaderNav/>
       <div className='arrange'>
-     <Sidebar/>
+        
+      <Sidebar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/pradeshalu' element={<HydTourism/>}/>
@@ -35,6 +36,7 @@ function App() {
         <Route path='/moralstory' element={<MoralStories/>}/>
         <Route path='/scheme' element={<Scheme/>}/>
         <Route path='/vinthalu' element={<Vinthalu/>}/>
+        
 
       </Routes>
       </div>

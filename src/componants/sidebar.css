@@ -3,8 +3,8 @@
  
   @media (max-width:480px)
   {
-    display:block;
-    width: 100%;
+    
+  display: none;
   }
 }
 .leftbar

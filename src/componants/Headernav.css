@@ -1,117 +1,102 @@
 
-*
+#logo
 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  text-align: left;
 }
 .navbar
 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(11, 11, 14);
-  height: 50px;
+  
+  background-color: rgb(10, 10, 10);
+ 
+  font-size: 25px;
+  font-family: 'Mandali', sans-serif;
 
+  
+ 
 }
 
-.logo
-{
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
-  padding-left: 25px;
-  color: white;
 
-}
-
-.menu ul
+.navbar ul
 {
   display: flex;
+ 
+  
 }
-.menu li{
+.navbar li{
   list-style: none;
   
 }
-.under
+.navbar li:hover
 {
+  background-color: aqua;
+}
+.navbar a{
   text-decoration: none;
   padding-left: 20px;
  
   color: #EFE2BA;
- 
 }
 
 
-.menu li:hover
+
+
+.navmenu
 {
-  background-color: aqua;
-}
-.toggle
-{
-  position: absolute;
-  top:16px;
-  right: 16px;
   display: none;
-  font-size: 20px;
+  position: absolute;
+  top:0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  
 }
-.menu
+.navmenu span
 {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  height: 0.4rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.2rem;
+
 }
-/* @media (max-width:480px)
+@media (max-width:480px)
 {
-  .toggle{
-    display: block;
-  }
-  .menu{
-    /* display: none; */
-    /* width: 100%;
-    font-size: 18px;
+  .navmenu
+  {
+    display: flex;
+    
+    
   }
   .navbar
   {
+    
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
+   
   }
-  .menu ul {
+  .navbar ul
+  {
+    display: none;
     flex-direction: column;
     width: 100%;
-    background-color: rgb(47, 46, 48);
+    margin-bottom: 0.25rem;
+    
+    background-color: rgb(7, 7, 7);
   }
-  .menu ul li
-  {
-    text-align: center;
-  }
-  .menu ul li a
-  {
-    padding: 12px 16px;
-  }
-  .menu.active
+  .navbar ul.open
   {
     display: flex;
+    
   }
-} */ */
-/* Leftbar */
-
-
-
-/* calendar code*/
-.calendarmain img
-{
-
-  width: 250px;
-  height: 400px;
-  padding: 15px;
-  @media (max-width:480px)
+  .navbar ul li
   {
     width: 100%;
+    text-align: center;
+  }
+  .navbar ul li a
+  {
+    margin: 0.2rem 0.5rem;
+
   }
 }
-.calendarmain button
-{
-  background-color:rgb(4, 73, 13);
-  
-}
-/* .....................................leftbarbutton */

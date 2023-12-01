@@ -5,7 +5,7 @@ const Scheme = () => {
   return (
     <div className='schemecontainer'>
     <div className='atalscheme'>
-        <img src='schemes/atalpension.jpg' style={{width:'400px', height:'400px'}}></img>
+        <img src='schemes/atalpension.jpg'></img>
         <h2>అటల్ పెన్షన్ యోజన పథకం</h2>
         <p>ఈ పథకం చందాదారులకు 60 సంవత్సరాల వయస్సు నుంచి పెన్షన్ ను అందించడంతో పాటు, రూ. 1000 నుంచి రూ. 5000 వరకు హామీ ఇచ్చిన పెన్షన్ ను అందిస్తుంది. ఒకవేళ చందాదారులు మరణించినట్లైతే, అతని లేదా ఆమె జీవిత భాగస్వామి అదే మొత్తం పెన్షన్ ను పొందేందుకు అర్హులు.</p>
        <br/>

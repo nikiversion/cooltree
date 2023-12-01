@@ -1,44 +1,47 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {Link} from'react-router-dom';
-import DownloadButton from './DownloadButton';
-import User from './JSONDATA/User';
+import './Headernav.css';
 
 
 
 
 const HeaderNav = () => {
-// let toggle=document.querySelector(".toggle")
-// let menu = document.querySelector(".menu")
 
-// toggle.onclick=function()
-// {
-//   menu.classList.toggle("active")
-// }
 
+const [menuOpen ,setMenuOpen]=useState(false)
   return (
-    <div>
+    
     <div className='navbar'>
-        <Link to='/b' className='logo'>Cooltree</Link>
-        <i className='fas fa-bars toggle'></i>
-        <div className='menu'>
-   <ul >
-        <Link to='/' className='under'><li>Home</li></Link>
-        <Link to='/Home' className='under'><li>Profile</li></Link>
-        <Link to='/signup' className='under'><li>Contact</li></Link>
-        <Link to='/about' className='under'><li>About</li></Link>
-        <Link to='/signin' className='under'><li>SignIn</li></Link>
+      <Link ><li>CoolTree</li></Link>
+        <div className='navmenu' onClick={()=>
+        setMenuOpen(!menuOpen)
+        }>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        
+   <ul className={menuOpen ? "open":""}>
+        <Link to='/' onClick={()=>
+        setMenuOpen(!menuOpen)
+        }><li>Home</li></Link>
+        <Link to='/scheme' onClick={()=>
+        setMenuOpen(!menuOpen)
+        }><li>కేంద్ర పథకాలు</li></Link>
+        <Link to='/moralstory' onClick={()=>
+        setMenuOpen(!menuOpen)
+        }><li>నీతి కథలు</li></Link>
+        <Link to='/pradeshalu' onClick={()=>
+        setMenuOpen(!menuOpen)
+        }><li>ప్రదేశాలు</li></Link>
+        <Link to='/vinthalu' onClick={()=>
+        setMenuOpen(!menuOpen)
+        }><li>ప్రపంచ వింతలు</li></Link>
         </ul>
-    </div>
-    </div>
-
     
-        <div className='calendar'>
-        {/* <DownloadButton/> */}
-        {/* <User/> */}
+    </div>       
     
-    
-    </div>
-    </div>
   
    
   )

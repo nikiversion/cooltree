@@ -5,16 +5,20 @@
 }
 .moral
 {
-    background-color: yellow;
+    background-color: rgb(165, 214, 177);
     text-align: center;
     font-family: 'Mandali', sans-serif;
     font-size: 22px;
+    @media (max-width:480px)
+    {
+        font-size: 17px;
+    }
 
 }
 
 .moralsection
 {
     padding: 5px;
-    background-color: rgb(159, 188, 214);
+    background-color: rgb(247, 248, 188);
     margin: 4px;
 }
