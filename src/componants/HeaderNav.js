@@ -11,8 +11,9 @@ const HeaderNav = () => {
 const [menuOpen ,setMenuOpen]=useState(false)
   return (
     
+    
     <div className='navbar'>
-      <Link to='/' ><li>CoolTree</li></Link>
+      <Link to='/' id='logo' ><li>CoolTree</li></Link>
         <div className='navmenu' onClick={()=>
         setMenuOpen(!menuOpen)
         }>
@@ -23,7 +24,8 @@ const [menuOpen ,setMenuOpen]=useState(false)
         
         
    <ul className={menuOpen ? "open":""}>
-        <Link to='/' onClick={()=>
+        <h3 onClick={()=>setMenuOpen(!menuOpen)}>X</h3>
+        <Link to='/home' onClick={()=>
         setMenuOpen(!menuOpen)
         }><li>Home</li></Link>
         <Link to='/scheme' onClick={()=>
@@ -42,7 +44,7 @@ const [menuOpen ,setMenuOpen]=useState(false)
     
     </div>       
     
-  
+ 
    
   )
 }

@@ -21,15 +21,16 @@ padding: 12px;
    display: flex;
    flex-wrap: wrap;
    text-align: center;
-   background-color: rgb(166, 231, 175);
+   
   
 
    
 }
 .calendarimage button
 {
-   background-color: blueviolet;
-   color: aqua;
+   background-color: rgb(3, 92, 133);
+   color: rgb(247, 249, 250);
+   border-radius: 8px;
    
 }
 .calendarimagecon

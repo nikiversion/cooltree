@@ -1,12 +1,4 @@
-.leftcontainer
-{
- 
-  @media (max-width:480px)
-  {
-    
-  display: none;
-  }
-}
+
 .leftbar
 {
   background-color: #EFE2BA;

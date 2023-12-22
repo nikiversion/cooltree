@@ -1,14 +1,10 @@
-body{
-    overflow-x: hidden;
-}
-
 
 .homebox img
 {
     width: 190px;
     height: 250px;
     padding: 5px;
-    @media (min-width:320px) and (max-width:480px),
+    @media (max-width:480px),
     (min-width:481px) and (max-width:768px)
   {
     width: 200px;
@@ -31,19 +27,15 @@ body{
   (min-width:481px) and (max-width:768px)
   {
    flex-wrap: wrap;
-  }
- 
-    
-   
+  }  
 }
 
 .homecontainer
 {
     padding: 10px;
-    
    
 }
-.first
+/* .first
 {
     background-color: rgb(182, 221, 182);
     border:  2px solid rgb(138, 123, 204);
@@ -57,8 +49,14 @@ body{
 {
     background-color: rgb(221, 188, 188);
     border:  2px solid rgb(0, 225, 255);
-}
-.leftcontainer
+} */
+@media (max-width:480px),
+  (min-width:481px) and (max-width:768px)
+  {
+
+   .leftcontainer
     {
         display: none;
     }
+  }  
+  

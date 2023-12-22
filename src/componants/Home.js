@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 import './home.css';
 import Button from 'react-bootstrap/Button';
 import {useNavigate} from'react-router-dom';
+import {useParams, useLocation } from 'react-router-dom';
 
 const Home = () => {
+  const {user,fname}=useParams();
+const location=useLocation();
+   console.log(location.pathname)
   const navigate=useNavigate();
   const navigateCalendar =()=>{
     navigate('/calendar')
@@ -42,7 +46,7 @@ const Home = () => {
       <Button variant='info' onClick={navigatePradeshalu}>ప్రదేశాలు</Button>
 
       <img src='/homepage/wonders.jpg'></img>
-      <Button variant='info' onClick={navigateVinthalu} >ప్రపంచ వింతలు</Button>
+      <Button variant='info' onClick={navigateVinthalu} >సినిమాలు</Button>
       </div>
       </div>
         
