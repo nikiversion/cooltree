@@ -33,6 +33,7 @@ const shouldShowSidebar=()=>{
       
       {shouldShowSidebar()&&<Sidebar/>}
       <Routes>
+
        
         <Route path='/5' element={<Home/>}/>
        
@@ -43,6 +44,8 @@ const shouldShowSidebar=()=>{
         <Route path='/2' element={<Scheme/>}/>
         <Route path='/3' element={<Vinthalu/>}/>
         <Route path='/4' element={<Movie/>}/>
+
+
         
 
       </Routes>
