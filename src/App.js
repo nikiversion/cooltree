@@ -30,9 +30,9 @@ function App() {
         
       <Sidebar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/pradeshalu' element={<HydTourism/>}/>
-        <Route path='/calendar' element={<Calendar/>}/>
+        <Route path='/' element={<Calendar/>}/>
         <Route path='/moralstory' element={<MoralStories/>}/>
         <Route path='/scheme' element={<Scheme/>}/>
         <Route path='/vinthalu' element={<Vinthalu/>}/>
