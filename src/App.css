@@ -3,12 +3,3 @@
 
 
 
-.arrange
-{
-display: flex;
-@media (max-width:480px)
-{
-    flex-wrap: wrap;
-}
-
-}

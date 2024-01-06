@@ -37,36 +37,10 @@
   color: #EFE2BA;
 }
 
-
-
-
-.navmenu
-{
-  display: none;
-  position: absolute;
-  top:0.75rem;
-  right: 0.5rem;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 2.25rem;
-  height: 2rem;
-  
-}
-.navmenu span
-{
-  height: 0.4rem;
-  width: 100%;
-  background-color: white;
-  border-radius: 0.2rem;
-
-}
 @media (max-width:480px),
 (min-width:481px) and (max-width:768px)
 {
-  .navmenu
-  {
-    display: flex;
-  }
+  
   /* .navbar
   {
     align-items: start;
@@ -79,11 +53,7 @@
     margin-bottom: 0.25rem;
     background-color: rgb(58, 47, 218);
   }
-  .navbar ul.open
-  {
-    display: flex;
-    
-  }
+ 
   .navbar ul li
   {
     width: 100%;
