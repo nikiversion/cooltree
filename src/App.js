@@ -6,12 +6,10 @@ import Home from './componants/Home';
 import DownloadButton from './componants/DownloadButton';
 import Calendar from './componants/Calendar';
 import Sidebar from './componants/Sidebar';
+import Vinthalu from './componants/prapanchavintalu/Vinthalu'
 
-import Scheme from './componants/kendrapathakalu/Scheme';
-import HydTourism from './componants/hydtourism/HydTourism';
-import MoralStories from './componants/moralStories/MoralStories';
-import Vinthalu from './componants/prapanchavintalu/Vinthalu';
-import Movie from './componants/MovieJSON/Movie';
+
+
 
 
 
@@ -35,15 +33,14 @@ const shouldShowSidebar=()=>{
       <Routes>
 
        
-        <Route path='/5' element={<Home/>}/>
-       
-        <Route path='/6' element={<HydTourism/>}/>
+        <Route path='/' element={<Home/>}/>
+
+       <Route path='/vinthalu' element={<Vinthalu/>}/>
         
-        <Route path='/' element={<Calendar/>}/>
-        <Route path='/1' element={<MoralStories/>}/>
-        <Route path='/2' element={<Scheme/>}/>
-        <Route path='/3' element={<Vinthalu/>}/>
-        <Route path='/4' element={<Movie/>}/>
+        <Route path='/111' element={<Calendar/>}/>
+       
+      
+        
 
 
         
